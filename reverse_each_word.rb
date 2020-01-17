@@ -6,4 +6,7 @@ def reverse_each_word(string)
   reverse_array = array.collect { |word| word.reverse  }
 
   reverse_array.join(" ")
+
+  # one unique line
+  # string.split(" ").collect { |word| word.reverse}.join(" ")
 end
