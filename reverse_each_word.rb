@@ -1,10 +1,10 @@
 
 def reverse_each_word(string)
 
-  array = string.split(" ")
-  reverse_array = array.collect { |word| word.reverse  }
-  reverse_array.join(" ")
+  # array = string.split(" ")
+  # reverse_array = array.collect { |word| word.reverse  }
+  # reverse_array.join(" ")
 
   # one unique line
-  # string.split(" ").collect { |word| word.reverse}.join(" ")
+  string.split(" ").collect { |word| word.reverse}.join(" ")
 end
